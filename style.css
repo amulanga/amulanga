@@ -1,0 +1,31 @@
+html {
+height: 100%;
+}
+body {
+  height: 100vh;
+ display: flex; 
+ color: whitesmoke;
+ font-family: fantasy;
+ background-color: burlywood;
+ flex-direction: column;
+}
+header{
+  text-align: center;
+  background: mediumseagreen; 
+}
+.content {
+  flex: 1 0 auto;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  background: cornflowerblue;
+}
+
+footer {
+  flex-shrink: 0;
+  background: goldenrod;
+  text-align: center;
+}
